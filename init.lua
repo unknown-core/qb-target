@@ -81,20 +81,7 @@ Config.TargetBones = {
 
 }
 
-Config.TargetModels = {    ["VehicleRental"] = {
-        models = {
-            `a_m_y_business_03`,
-        },
-        options = {
-            {
-                type = "client",
-                event = "qb-rental:openMenu",
-                icon = "fas fa-car",
-                label = "Rent Vehicle",
-            },
-        },
-        distance = 4.0
-    },
+Config.TargetModels = {   
 
 }
 
